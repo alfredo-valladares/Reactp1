@@ -3,14 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Button from './component/Button';
 import Stateful from './component/Stateful';
-import Statelees from './component/Statelees';
+import Stateless from './component/Statelees';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
     
-    <Stateful/>
-    <Statelees/>
+      
+      <Stateful></Stateful>
+      <Stateless>
+        
+      </Stateless>
   </React.StrictMode>,
   document.getElementById('root')
 );
