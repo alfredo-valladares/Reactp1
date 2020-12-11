@@ -14,7 +14,9 @@ ReactDOM.render(
     
       
       <Stateful></Stateful>
+      <Button text="Doc"></Button>
       <Stateless>
+
         
       </Stateless>
   </React.StrictMode>,
